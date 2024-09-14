@@ -1,0 +1,112 @@
+.owl-carousel{
+    max-height: 600px;
+}
+.owl-carousel .img{
+  width: 100%;
+  height: 420px;
+  max-height: 600px;
+}
+.owl-prev{
+    left: 0px;
+}
+.owl-next{
+    right: 0px;
+}
+.owl-prev, .owl-next{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    scroll-margin-bottom: auto;
+}
+.owl-prev:hover, .owl-prev:active, .owl-prev:focus, .owl-next:hover, .owl-next:active, .owl-next:focus{
+    outline: none!important;
+    background: transparent!important;
+}
+.owl-prev span, .owl-next span{
+    font-size: 60px;
+    color: #8b4b18;
+    text-shadow: 1px 1px 5px #999;
+    outline: none!important;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.1), 0 4px 15px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.1), 0 4px 15px 0 rgba(0,0,0,0.1);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    line-height: 35px;
+}
+.owl-theme .owl-nav[class*="owl-"]:hover{
+    background-color: transparent;
+}
+.owl-dots{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.owt-dots:hover, .owt-dots:active, .owt-dots:focus{
+    outline: none!important;
+}
+.owt-dot:hover, .owt-dot:active, .owt-dot:focus{
+    outline: none!important;
+}
+.item-body{
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #8b4b18;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.item-body h5, .item-body p{
+    margin: 0;
+}
+.owl-nav{
+  margin: 0!important;
+}
+.owl-carousel .card{
+    border: 0;
+    margin: 5px;
+}
+.owl-carousel img{
+    width: 300px;
+    height: 250px;
+    border: #ebe9ee 1px solid;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+.owl-carousel .card-title{
+    font-weight: 450!important;
+    transform: text-decoration 0.5s;
+}
+.owl-carousel .card-title:hover{
+    text-decoration: underline;
+}
+.owl-carousel .card-text{
+    font-size: .9em;
+    color: #5a88ca;
+    font-weight: 450;
+}
+@media screen and (max-width: 700px){
+  .owl-carousel .img{
+    height: 300px;
+  }
+}
