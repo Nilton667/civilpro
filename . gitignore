@@ -1,0 +1,4 @@
+/app/api/conexao.php
+/dashboard/app/api/conexao.php
+/app/prefs/*
+/dashboard/app/prefs/*
